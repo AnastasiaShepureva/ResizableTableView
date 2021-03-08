@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SelfStretchedTableView
+//  ResizableTableView
 //
-//  Created by Анастасия Шепурева on 08.03.2021.
+//  Created by Anastasia Shepureva on 08.03.2021.
 //
 
 import UIKit

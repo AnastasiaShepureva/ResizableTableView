@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D39094125F685BD00759B09 /* SelfStretchedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfStretchedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D39094125F685BD00759B09 /* ResizableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D39094425F685BD00759B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D39094625F685BD00759B09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D39094825F685BD00759B09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5D39093825F685BD00759B09 = {
 			isa = PBXGroup;
 			children = (
-				5D39094325F685BD00759B09 /* SelfStretchedTableView */,
+				5D39094325F685BD00759B09 /* ResizableTableView */,
 				5D39094225F685BD00759B09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5D39094225F685BD00759B09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D39094125F685BD00759B09 /* SelfStretchedTableView.app */,
+				5D39094125F685BD00759B09 /* ResizableTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D39094325F685BD00759B09 /* SelfStretchedTableView */ = {
+		5D39094325F685BD00759B09 /* ResizableTableView */ = {
 			isa = PBXGroup;
 			children = (
 				5D39094425F685BD00759B09 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				5D39094F25F685BE00759B09 /* LaunchScreen.storyboard */,
 				5D39095225F685BE00759B09 /* Info.plist */,
 			);
-			path = SelfStretchedTableView;
+			path = ResizableTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D39094025F685BD00759B09 /* SelfStretchedTableView */ = {
+		5D39094025F685BD00759B09 /* ResizableTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D39095525F685BE00759B09 /* Build configuration list for PBXNativeTarget "SelfStretchedTableView" */;
+			buildConfigurationList = 5D39095525F685BE00759B09 /* Build configuration list for PBXNativeTarget "ResizableTableView" */;
 			buildPhases = (
 				5D39093D25F685BD00759B09 /* Sources */,
 				5D39093E25F685BD00759B09 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SelfStretchedTableView;
+			name = ResizableTableView;
 			productName = SelfStretchedTableView;
-			productReference = 5D39094125F685BD00759B09 /* SelfStretchedTableView.app */;
+			productReference = 5D39094125F685BD00759B09 /* ResizableTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D39093C25F685BD00759B09 /* Build configuration list for PBXProject "SelfStretchedTableView" */;
+			buildConfigurationList = 5D39093C25F685BD00759B09 /* Build configuration list for PBXProject "ResizableTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D39094025F685BD00759B09 /* SelfStretchedTableView */,
+				5D39094025F685BD00759B09 /* ResizableTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TBZY8UUCA2;
-				INFOPLIST_FILE = SelfStretchedTableView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ResizableTableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiashepureva.SelfStretchedTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiashepureva.ResizableTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +307,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TBZY8UUCA2;
-				INFOPLIST_FILE = SelfStretchedTableView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ResizableTableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiashepureva.SelfStretchedTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiashepureva.ResizableTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D39093C25F685BD00759B09 /* Build configuration list for PBXProject "SelfStretchedTableView" */ = {
+		5D39093C25F685BD00759B09 /* Build configuration list for PBXProject "ResizableTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D39095325F685BE00759B09 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D39095525F685BE00759B09 /* Build configuration list for PBXNativeTarget "SelfStretchedTableView" */ = {
+		5D39095525F685BE00759B09 /* Build configuration list for PBXNativeTarget "ResizableTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D39095625F685BE00759B09 /* Debug */,

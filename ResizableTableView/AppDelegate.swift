@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SelfStretchedTableView
+//  ResizableTableView
 //
-//  Created by Анастасия Шепурева on 08.03.2021.
+//  Created by Anastasia Shepureva on 08.03.2021.
 //
 
 import UIKit
@@ -12,8 +12,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    
         return true
     }
 
